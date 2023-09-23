@@ -8,33 +8,31 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
-            <br /> I am a final year student pursuing an Integrated MSc (IMSc)
-            in Maths and Computing at BIT Mesra.
+            Après avoir réalisé un bac pro<span className="purple"> SN </span>
+            option <span className="purple"> RISC</span> J'ai décidé de biffurquer vers le développement.
+            <br /> Actuellement, je suis en 2ème année de mon BTS SIO option SLAM.
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+            Sur mon portfolio vous retrouverez mes projets, mes compétences et mes expériences professionnelles.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            En dehors de l'informatique et du developpement j'aime :
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Les jeux vidéos
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Le sport
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Les voyages
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "C'est en échouant qu'on se renforce"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Jordan Chevrier</footer>
         </blockquote>
       </Card.Body>
     </Card>
