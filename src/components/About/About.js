@@ -6,6 +6,7 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Veillestack from "./Veillestack";
 
 function About() {
   return (
@@ -45,6 +46,10 @@ function About() {
         </h1>
         <Toolstack />
 
+        <h1 className="project-heading">
+          <strong className="purple">Ma veille</strong> technologique
+        </h1>
+        <Veillestack />
         <Github />
       </Container>
     </Container>

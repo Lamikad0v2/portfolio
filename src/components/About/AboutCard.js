@@ -9,13 +9,17 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Après avoir réalisé un bac pro<span className="purple"> SN </span>
-            option <span className="purple"> RISC</span> J'ai décidé de biffurquer vers le développement.
+            option <span className="purple"> RISC</span> J'ai décidé de bifurquer vers le développement.
             <br /> Actuellement, je suis en 2ème année de mon BTS SIO option SLAM.
             <br />
-            Sur mon portfolio vous retrouverez mes projets, mes compétences et mes expériences professionnelles.
+            Sur mon portfolio vous retrouverez mes projets, mes compétences ainsi que mes expériences professionnelles.
             <br />
             <br />
-            En dehors de l'informatique et du developpement j'aime :
+          <p>
+            Plus tard, je souhaite poursuivre mes études en faisant une licence ou un bachelor en alternance chez Schneider Electric,
+            suivi d'un master dans le domaine du développement avec une spécialisation en électronique industrielle embarquée.
+          </p>
+          En dehors de l'informatique et du développement, j'aime :
           </p>
           <ul>
             <li className="about-activity">
@@ -28,9 +32,8 @@ function AboutCard() {
               <ImPointRight /> Les voyages
             </li>
           </ul>
-
           <p style={{ color: "rgb(155 126 172)" }}>
-            "C'est en échouant qu'on se renforce"{" "}
+            "Pourquoi un seul domaine quand on peut tout essayer ?"{" "}
           </p>
           <footer className="blockquote-footer">Jordan Chevrier</footer>
         </blockquote>

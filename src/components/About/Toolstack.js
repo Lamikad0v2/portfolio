@@ -6,6 +6,7 @@ import {
   SiXampp,
   SiVisualstudio,
   SiFivem,
+  SiCurseforge,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -26,6 +27,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiFivem />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCurseforge />
+      </Col>
+
     </Row>
   );
 }

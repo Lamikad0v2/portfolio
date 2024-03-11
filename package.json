@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Lamikad0v2.github.io/Portfolio",
+  "homepage": "https://Lamikad0v2.github.io/Portfolio.git",
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
@@ -17,9 +17,11 @@
     "react-icons": "^4.8.0",
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^5.7.1",
+    "react-player": "^2.13.0",
     "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "react-tsparticles": "^1.42.2",
+    "react-vertical-timeline-component": "^3.6.0",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^2.1.4"
   },
@@ -50,6 +52,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.1.1"
   }
 }
