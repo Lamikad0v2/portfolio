@@ -6,7 +6,8 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
-import Veillestack from "./Veillestack";
+import Softstack from "./Softstack";
+import Education from './Education';
 
 function About() {
   return (
@@ -23,7 +24,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Qui suis-<strong className="purple">je ?</strong>
+              Moi en quelques <strong className="purple">mots</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -35,9 +36,17 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
+        <Education />
+
         <h1 className="project-heading">
           Mes  <strong className="purple">Competences </strong>
         </h1>
+          <Softstack />
+
+        <h2 className="project-heading">
+        Mes  <strong className="purple">Hard Skills : </strong>
+        </h2>
 
         <Techstack />
 
@@ -45,11 +54,6 @@ function About() {
           <strong className="purple">Les outils</strong> que j'utilise
         </h1>
         <Toolstack />
-
-        <h1 className="project-heading">
-          <strong className="purple">Ma veille</strong> technologique
-        </h1>
-        <Veillestack />
         <Github />
       </Container>
     </Container>

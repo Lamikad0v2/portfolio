@@ -13,6 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { SiReact } from "react-icons/si";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -85,22 +86,25 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
+                to="/Veille"
+                onClick={() => updateExpanded(false)}
+              >
+                <SiReact
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Veille
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> CV
               </Nav.Link>
             </Nav.Item>
-
-            {/* <Nav.Item>
-              <Nav.Link
-                href="https://soumyajitblogs.vercel.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button

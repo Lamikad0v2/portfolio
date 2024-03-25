@@ -6,6 +6,7 @@ import {
   DiNodejs,
   DiPhp,
   DiGit,
+  DiJava,
 } from "react-icons/di";
 import {
   SiMysql,
@@ -21,6 +22,9 @@ function Techstack() {
         <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiJava />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -33,9 +37,6 @@ function Techstack() {
         <SiNextdotjs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -44,7 +45,11 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPhp />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGit />
+      </Col>
     </Row>
+    
   );
 }
 

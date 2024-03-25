@@ -7,6 +7,7 @@ import {
   SiVisualstudio,
   SiFivem,
   SiCurseforge,
+  SiAndroidstudio,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -16,13 +17,16 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAndroidstudio />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiLaragon />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiXampp />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFivem />
