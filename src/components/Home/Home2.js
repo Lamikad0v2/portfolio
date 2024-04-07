@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Github from "../About/Github";
 
 function Home2() {
   return (
@@ -16,7 +17,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              PETITE <span className="purple"> INTRODUCTION </span> BRIÈVE
+              PETITE <span className="purple"> INTRODUCTION </span> BRÈVE
             </h1>
             <p className="home-about-body">
               Je suis Jordan Chevrier, étudiant en BTS SIO option SLAM.

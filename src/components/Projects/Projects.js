@@ -2,9 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import multiburo from "../../Assets/Projects/logo-mulitburo.png";
 import schneider from "../../Assets/Projects/schneider.png";
-import waiting from "../../Assets/Projects/waiting.png";
 import gourmetise from "../../Assets/Projects/logo.png";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -16,6 +14,10 @@ import environnemet from './stm32cubeide.jpg';
 import Captor from './temp-sensor.png';
 import Transmission from './transmission.jpg';
 import Oscillo from './oscillo.png';
+import Acceuil from './Acceuil.png';
+import Concours from './Concours.png';
+import Resultat from './Resultat.png';
+import Client from './Espace-client.png';
 import {DiZend} from "react-icons/di";
 import {SiSignal,SiStmicroelectronics,SiEditorconfig,SiYoutube,SiBigbluebutton,SiStyledcomponents,SiDiscover,SiSchneiderelectric} from "react-icons/si";
 import {DiTerminal} from "react-icons/di";
@@ -37,7 +39,7 @@ function Projects() {
             <ProjectCard
               imgPath={schneider}
               isBlog={false}
-              contexte = {true}
+              contexte = {false}
               title="Stage #1"
               description="Stage en développement embarqué chez Schneider Electric sur des micro-controleur de chez STMicroElectronics sur l'ide Stm32CubeIde avec des cartes de type Nucleo"
               ghLink="https://github.com/Lamikad0v2"
@@ -196,7 +198,7 @@ function Projects() {
             <ProjectCard
               imgPath={schneider}
               isBlog={false}
-              contexte = {true}
+              contexte = {false}
               title="Stage #2"
               description="Stage en développement embarqué chez Schneider Electric sur des micro-controleur de chez STMicroElectronics sur l'ide Stm32CubeIde avec des cartes de type Nucleo"
               ghLink="https://github.com/Lamikad0v2"
@@ -342,31 +344,43 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={multiburo}
-              isBlog={false}
-              title="MultiBuro"
-              description="Projet de première année, prend en charge la gestion des utilisateurs sur une base de donnée, ainsi que la gestion des salles de réunion et des réservations de celles-ci. Ce site est réalisé en PHP et utilise une base de donnée MySQL."
-              ghLink="https://github.com/Lamikad0v2/MultiBuro"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={waiting}
-              isBlog={false}
-              title="Cuisine"
-              description="Projet de deuxième année, prend en charge la réservation de traiteur, de cours de cuisine ainsi que de la cuisine à domicile. Ce site est réalisé en PHP et utilise une base de donnée PostgreSQL. Ainsi que le framework Laravel."
-              ghLink="https://github.com/Lamikad0v2"             
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={gourmetise}
               isBlog={false}
               title="Gourmetise"
               description="Projet de deuxième année en duo avec Nolan Berger. Application web et mobile avec deux base de données SQL et SQlite, mise en place et créations d'API. Réservation et concours de la meilleur boulangerie "
-              ghLink="https://github.com/Lamikad0v2/Gourmetise"             
+              ghLink="https://github.com/Lamikad0v2/Gourmetise"       
+              Body = {
+                <VerticalTimeline lineColor='gray'>
+                <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    iconStyle={{ background: 'gray', color: '#fff' }}
+                    icon={<gourmetise />}
+                  >
+                    <img src={Acceuil} alt="Gourmetise" style={{ width: '110%', height: 'auto' }} />
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    iconStyle={{ background: 'gray', color: '#fff' }}
+                    icon={<gourmetise />}
+                  >
+                    <img src={Concours} alt="Gourmetise" style={{ width: '130%', height: 'auto' }} />
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    iconStyle={{ background: 'gray', color: '#fff' }}
+                    icon={<gourmetise />}
+                  >
+                    <img src={Resultat} alt="Gourmetise" style={{ width: '110%', height: 'auto' }} />
+                  </VerticalTimelineElement>
+                  <VerticalTimelineElement
+                    className="vertical-timeline-element--education"
+                    iconStyle={{ background: 'gray', color: '#fff' }}
+                    icon={<gourmetise />}
+                  >
+                    <img src={Client} alt="Gourmetise" style={{ width: '130%', height: 'auto' }} />
+                  </VerticalTimelineElement>
+                  </VerticalTimeline>
+              }      
             />
           </Col>
 
